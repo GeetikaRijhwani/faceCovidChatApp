@@ -1,0 +1,239 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&family=Source+Code+Pro:wght@600&display=swap");
+
+/********* Menubar and Slider CSS *********/
+
+.logo_section {
+  width: 16%;
+}
+.logo_section a img {
+  width: 100%;
+}
+.tsnav {
+  justify-content: flex-end;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ee2764 !important;
+}
+.tscontainer {
+  height: 100vh;
+  background-color: rgba(251, 255, 0, 0.5);
+  background: url("./components/image.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.main_slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+.slider-wrapper {
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  z-index: 100;
+}
+.icon_span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 9%;
+}
+.icon_span .icon_img {
+  width: 20%;
+}
+
+.slider {
+  height: 75px;
+  padding-left: 15px;
+  overflow: hidden;
+}
+
+.slider-1 {
+  animation: slide 10s linear infinite;
+  animation-delay: 2s;
+  /* color: #ff5733; */
+  color: black;
+}
+.slider-2 {
+  color: black;
+}
+.slider-3 {
+  color: black;
+}
+.slider div {
+  height: 60px;
+  margin-bottom: 40px;
+}
+
+@keyframes slide {
+  0% {
+    margin-top: 100px;
+  }
+  5% {
+    margin-top: 0px;
+  }
+  33% {
+    margin-top: 0px;
+  }
+  38% {
+    margin-top: -100px;
+  }
+  66% {
+    margin-top: -100px;
+  }
+  71% {
+    margin-top: -200px;
+  }
+  100% {
+    margin-top: -200px;
+  }
+}
+
+.snav {
+  clear: both;
+}
+.slider-nav {
+  margin-top: 75px;
+  padding: 0;
+}
+.slider-nav li {
+  list-style: none;
+}
+
+.slider-nav li a {
+  display: block !important;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+/**********GetHelp Section CSS ********/
+.row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row:last-child {
+  padding-top: 0px;
+}
+.card {
+  text-align: center;
+  font-size: 22px;
+  margin: 20px;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  background: url("./components/sadbg.jpg") no-repeat center center;
+  background-size: cover;
+  cursor: pointer;
+  transition: all 1s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.cov_head {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.cov_icon img {
+  width: 30%;
+}
+
+.cov_txt {
+  font-family: "Libre Baskerville", serif;
+  font-size: 37px;
+}
+
+.talkbtn {
+  width: 20%;
+  position: fixed;
+  display: block;
+  bottom: 0px;
+  right: 20px;
+}
+
+.form-group{
+  margin: 20px 0px;
+}
+ul{
+  padding: 0px !important;
+}
+li{
+  list-style-type:none;
+}
+.chatrow{
+  padding-bottom: 0px;
+}
+.chatM{
+  padding:10px;
+  background-color: gray;
+  border-radius: 5px;
+  clear: both;
+  margin: 2px;
+}
+
+.sol-text{
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.sol-video{
+  margin-top: 90px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
